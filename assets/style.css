@@ -1,7 +1,12 @@
-body{
+/* body{
 
     background-color: rgb(206, 189, 200);
 
+} */
+
+#header{
+
+    background-color: aliceblue;
 }
 #first-section{
 
@@ -14,20 +19,12 @@ body{
     display: flex;
     justify-content: center;
 }
-.jumbotron{
-
-    background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
-    background-size: cover;
-    background-position: center center;
-}
-
 
 .display-4{
 
-    display: flex;
-    justify-content: center;
+   
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: yellow;
+    color:rgb(42, 73, 114);
     
 }
 
