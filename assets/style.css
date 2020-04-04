@@ -46,6 +46,10 @@ body{
 
     width: 100%;
 }
+.card-body{
+
+    width: 100%;
+}
 
 .nav-link{
 
@@ -55,6 +59,31 @@ body{
     
     padding-top: 20px;
 
+}
+
+[class*="col-sm-4"]{
+
+    font-size: 14px;
+
+}
+[class*="card-link"]{
+
+    font-size: 18px;
+}
+
+h2{
+
+    color: rgba(29, 104, 190);
+}
+#move-card{
+
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+
+    padding-bottom: 10px;
 }
 
 .footer {
