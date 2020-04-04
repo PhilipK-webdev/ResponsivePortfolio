@@ -1,28 +1,30 @@
-/* body{
+body{
 
-    background-color: rgb(206, 189, 200);
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/03/12/43/model-3058278_1280.jpg");
+    background-size: cover;
+    background-position: center center;
 
-} */
+}
 
 #header{
 
     background-color: aliceblue;
 }
+
+
 #first-section{
-
     display: flex;
     justify-content: center;
-    padding-bottom: 25px;
-}
+} 
+.row{
 
-#second-section{
-    display: flex;
-    justify-content: center;
+    display: block !important;
+    padding-bottom: 20px;
 }
 
 .display-4{
 
-   
+   padding-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(42, 73, 114);
     
@@ -34,12 +36,39 @@
 }
 
 .card{
-
+    
     width: 300px;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.8);
     
 }
 
 .card-img-top{
 
     width: 100%;
+}
+
+.nav-link{
+
+    color:#424B54;
+}
+[class*="col-md-4"]{
+    
+    padding-top: 20px;
+
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: silver;
+   
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+.footer h2 p{
+    font-size: 16px;;
 }
