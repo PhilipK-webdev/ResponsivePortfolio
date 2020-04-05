@@ -1,16 +1,21 @@
+html{
+
+    height: 100%;
+    position: relative;
+}
+
 body{
 
     background-image: url("https://cdn.pixabay.com/photo/2018/01/03/12/43/model-3058278_1280.jpg");
     background-size: cover;
     background-position: center center;
+   
 
 }
 
-/* nav{
-
-    background: #2c3e50;
-    color: red;
-} */
+.container-padding{
+    padding-bottom: 20px;
+}
 
 
 #header{
@@ -23,11 +28,8 @@ body{
     display: flex;
     justify-content: center;
 } 
-.row{
 
-    display: block !important;
-    padding-bottom: 20px;
-}
+
 
 .display-4{
 
@@ -40,6 +42,8 @@ body{
 .nav-item{
     font-family: 'Gotu', sans-serif;
     font-size: 24px;
+    text-decoration: underline;
+    
 }
 
 .card{
@@ -60,7 +64,7 @@ body{
 
 .nav-link{
 
-    color:#424B54;
+    color:rgb(197, 13, 68);
 }
 [class*="col-md-4"]{
     
@@ -93,22 +97,54 @@ h2{
     padding-bottom: 10px;
 }
 
-.footer {
-    padding: 30px;
+.footer-contact {
+   
+    padding-bottom: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: silver;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
    
 }
 
-.footer h2 {
-    font-size: 20px;
-}
-.footer h2 p{
-    font-size: 16px;;
+.footer{
+
+    padding-bottom: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: silver;
+    
 }
 
-.nav{
-    display: flex;
+.text-center{
+
+    text-decoration: underline;
+}
+..footer-contact h2{
+    
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.footer h2 {
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+
+
+.jumbotron{
+
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.8);
+}
+
+.img-thumbnail{
+    
+    padding: 5px;
+    margin: 2.5px;
 }
