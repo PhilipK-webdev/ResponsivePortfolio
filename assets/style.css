@@ -154,12 +154,19 @@ h2{
 
 
 
-@media screen and (max-width:760px){
+/* @media screen and (max-width:575px){
 
     #footer-contact{
-        position: static;
+        height: 50px;
     }
-}
+} */
+
+/* @media screen and (min-width:759px){
+
+    #footer-contact{
+        position: absolute;
+    }
+} */
 
 
 
