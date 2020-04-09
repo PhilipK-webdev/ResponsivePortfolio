@@ -132,7 +132,7 @@ h2{
     display: flex;
     justify-content: center;
 }
-#footer{
+.footer{
 
     padding-bottom: 10px;
     clear: both;
@@ -149,7 +149,7 @@ h2{
 
 }
 
-#footer h2 {
+.footer h2 {
     padding-top: 10px;
     font-size: 20px;
     
