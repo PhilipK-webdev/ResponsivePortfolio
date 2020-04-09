@@ -1,3 +1,4 @@
+/* All the tags elemtns */
 html{
     height: 100%;
     position: relative;
@@ -11,23 +12,12 @@ body{
 
 }
 
-.container-padding{
-    padding-bottom: 20px;
+h2{
+
+    color: rgba(29, 104, 190);
 }
 
-
-#header{
-
-    background-color: aliceblue;
-}
-
-
-#first-section{
-    display: flex;
-    justify-content: center;
-} 
-
-
+/* class  */
 
 .display-4{
 
@@ -39,6 +29,12 @@ body{
     text-decoration: underline;
     
 }
+
+
+.container-padding{
+    padding-bottom: 20px;
+}
+
 
 .nav-item{
     font-family: 'Gotu', sans-serif;
@@ -52,10 +48,6 @@ body{
 }
 
 .card-img-top{
-
-    width: 100%;
-}
-#card-body{
 
     width: 100%;
 }
@@ -80,15 +72,6 @@ body{
     font-size: 18px;
 }
 
-h2{
-
-    color: rgba(29, 104, 190);
-}
-#move-card{
-
-    display: flex;
-    justify-content: center;
-}
 
 .card-title{
 
@@ -100,31 +83,10 @@ h2{
     font-size: 20px;
 }
 
-#footer{
-
-    padding-bottom: 10px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: silver;
-    
-}
 
 .text-center{
 
     text-decoration: underline;
-}
-#footer-contact h2{
-
-    padding-top: 10px;
-    font-size: 20px;
-
-}
-
-#footer h2 {
-    padding-top: 10px;
-    font-size: 20px;
-    
 }
 
 
@@ -149,6 +111,51 @@ h2{
 
     margin: 5px;
 }
+
+/* ID */
+#header{
+
+    background-color: aliceblue;
+}
+
+#first-section{
+    display: flex;
+    justify-content: center;
+} 
+#card-body{
+
+    width: 100%;
+}
+
+#move-card{
+
+    display: flex;
+    justify-content: center;
+}
+#footer{
+
+    padding-bottom: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: silver;
+    
+}
+
+#footer-contact h2{
+
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+#footer h2 {
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+
+
 
 
 
