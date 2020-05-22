@@ -52,9 +52,11 @@ main {
 }
 
 .card{
+
     width: 300px;
     box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.8);
 }
+
 
 .card-img-top{
 
@@ -92,19 +94,15 @@ main {
     font-size: 20px;
 }
 
-
 .text-center{
 
     text-decoration: underline;
 }
 
-
 .jumbotron{
     background-image: url("https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     background-size: cover;
     background-position: center center;
-
-
     box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.8);
 }
 
@@ -140,6 +138,8 @@ main {
 
     display: flex;
     justify-content: center;
+    margin-right: 20px;
+    
 }
 .footer{
 
@@ -148,7 +148,7 @@ main {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: silver;
-   min-width: min-content;
+    min-width: min-content;
     
 }
 
