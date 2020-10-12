@@ -27,5 +27,5 @@ Visual Studio Code / Sublime Text.
 - Bootstrap 4
 
 ## Authors
-
 - Philip Kouchner
+- Github link -  https://github.com/PhilipK-webdev/ResponsivePortfolio
