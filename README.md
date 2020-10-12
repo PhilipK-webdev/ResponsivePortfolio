@@ -1,4 +1,8 @@
-# Introduction: Home Assignment Responsive Portfolio Update
+  [![Generic badge](https://img.shields.io/badge/html-green.svg)](https://shields.io/)
+  [![Generic badge](https://img.shields.io/badge/css-green.svg)](https://shields.io/)
+  ![followers](https://img.shields.io/github/followers/PhilipK-webdev?logoColor=red&style=social)
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+# Introduction: Responsive Portfolio Update
 
 Create My own Site to represent my projects and my skills.
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes.
@@ -7,22 +11,12 @@ Inside the Portfolio page you will see Github Repo to my projects.
 Contact page where you can find all the details about how to get in touch with me.
 
 
-## Motivation
+## Screenshot
 
-```
-As we continue our progress over these months I want to update my Portfolio page and My Contact Linkedin and Github.
-My Portfolio is build with 1 Group Project and 3 my own projects.
-Technology that I used to build these projects is jQuery, JS and Third Side API(Functionality), 
-HTML, Booststrap And CSS(Layout).
+![](./images/portfolio.PNG)
 
 
-```
-## Getting Started
-
-To start using the Web Page the User need to clone the project .
-git clone "url".
-
-### Prerequisites
+## Prerequisites
 
 Visual Studio Code / Sublime Text.
 
